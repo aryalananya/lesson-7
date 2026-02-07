@@ -1,0 +1,56 @@
+body{
+                margin:0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color:rosybrown;
+            }
+            .topnav a{
+                float:left;
+                color:hotpink;
+                text-align: center;
+                padding:14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            .topnav a.hover{
+            background-color:lavender;
+            color:black;
+             }
+             .topnav a.active{
+                background-color: antiquewhite;
+                color: aquamarine;
+             }
+.pimg1.pimg2.pimg3{
+    position:relative;
+    oppacity:0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1{
+    background-image: url(img1.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(img2.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(img3.jpg);
+    min-height: 400px;
+}
+.section {
+text-align:center;
+padding:50px 80px;
+}
+.section-light {
+background-color:lavenderblush;
+color:aquamarine;
+}
+.section-dark {
+background-color:blueviolet;
+color:green;
+}
